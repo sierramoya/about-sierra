@@ -1,3 +1,4 @@
+/* original from Sierra
 {
   margin: 0;
   padding: 0;
@@ -5,6 +6,43 @@
 
 .wrapper {
     margin: 0 auto;
-    width: 800px;
+    width: 500px;
 }
 
+/* adapted from https://codepen.io/kevinpowell/pen/bxZmNV/18a9b362f753c51f462ba086a535a4da */
+
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+.header {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 10vw;
+    background-image: url(https://cdn.shopify.com/s/files/1/0012/2522/8355/products/Lavender_Fields_2048x.jpg?v=1533915901);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    background-color: white;
+    color: rgb(100,50, 200);
+    font: normal 25px Airal, Helvetica, sans-serif;
+    margin-right: 250px;
+    margin-left: 250px;
+    position: relative; top: -80px;
+}
+
+.img-sierra {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 300px;
+    position: relative; top: -40px;
+}
